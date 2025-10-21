@@ -81,6 +81,21 @@ h4 {
   padding: 0;
 }
 
+.purchInfo {
+  display: flex;
+}
+@media screen and (max-width: 767px){
+  .purchInfo {
+    flex-direction: column;
+  }
+  header {
+    margin-bottom: 0;
+  }
+  header .header-img {
+     min-height: 250px;
+     max-height: 250px;
+  }
+}
 .purchInfo p.purchLabel {
   color: #000;
   line-height: 20px;

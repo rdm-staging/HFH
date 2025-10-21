@@ -1,0 +1,18 @@
+
+    :root {
+      --mainColor: #0099cc;
+      --secondaryColor: #e55d25;
+      --tertiaryColor: #002b62;
+      --highlightColor: #c4d600;
+      --headerColor: var(--secondaryColor);
+      --buttonColor: var(--secondaryColor);
+      --mainTextColor: #666666;
+      --formBgColor: #fefefe;
+      --inputBorder: 3px solid #bbb;
+      --error: #a4343a;
+      --fontFamily: "Nunito Sans", sans-serif;
+      --fontWeightNormal: 400;
+      --fontWeightMedium: 500;
+      --fontWeightBold: 700;
+      --elementShadow: 0px 10px 32px 0px rgba(0, 0, 0, 0.3);
+    }

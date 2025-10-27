@@ -62,8 +62,9 @@ const donationParameters = {
     show: true,
     feePercentage: 0.04,
     prechecked: true,
-    labelText: `I'd like to cover the fees associated with my donation so more of my donation goes directly to Habitat for Humanity.`,
-    totalDonationText: "My new monthly total is:",
+    labelText: `I want 100% to go to Habitat for Humanity. Please increase my 
+    amount to cover credit card transaction fees, increasing my total monthly donation to`,
+    totalDonationText: "",
   },
   minimumDonation: 20,
   maximumDonation: 500,
